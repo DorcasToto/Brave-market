@@ -1,0 +1,35 @@
+.aboutUs h3{
+    text-align:center;
+    font-size: 40px;
+    color:white;
+    text-transform: uppercase;
+    padding:20px
+}
+#aboutDesc img {
+    border-radius: 2em;
+    padding-bottom: 10px;
+    border-style: none;
+    
+}
+.aboutDescription p{
+    font-size: 18px;
+    text-align:right;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    color: green;
+
+}
+.aboutUs{
+    background-color:silver;
+    width: 100%;
+    padding-top: 0;
+}
+#aboutDesc{
+   flex-direction: row;
+   display:flex;
+
+   
+}

@@ -1,0 +1,10 @@
+.team{
+    background-color:rgb(236, 247, 247);
+    border-radius: 2em;
+}
+.team h3{
+text-align:center;
+font-size: 25px;
+color:rgb(212, 33, 33);
+text-transform: uppercase;
+}

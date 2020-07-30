@@ -1,0 +1,10 @@
+.services{
+    background-color:lightcyan;
+    border-radius: 2em;
+}
+.services h3{
+    text-align:center;
+    font-size: 25px;
+    color:green;
+    text-transform: uppercase;
+}

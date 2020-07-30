@@ -4,20 +4,28 @@ body{
   
 }
 #myNavBar{
-  background-image:url("../images/background.jpg");
+   height: 300;
+   background-image: url("../images/background.jpg");
+   background-repeat: no-repeat;
    background-size: cover;
-   background-position: center center;
-   background-repeat:no-repeat;
-   background-attachment: fixed;
 
+}
+#slider{
+  height:600px;
+}
+#slider p{
+  text-align: center;
+  padding-top:300px;
+  font-size:40px;
 }
 .navBar p{
   text-align: center;
-  font-size: 25px;
-  font-style: normal;
-  padding-top:10%;
+  font-size: 20px;
+  font-style:normal;
+  padding:30px;
+  padding-bottom: 30px;
   font-weight:normal;
-  color: green;
+  color:#BF561B;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
