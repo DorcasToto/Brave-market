@@ -1,36 +1,60 @@
 .aboutUs h3{
     text-align:center;
-    font-size: 40px;
-    color:white;
+    font-size: 30px;
+    color:green;
     text-transform: uppercase;
-    padding:20px
+    padding:20px;
+ 
 }
+/**.aboutUs h3::before{
+    content:"";
+    display: block;
+    width:120px;
+    height:2px;
+    position: absolute;
+    background: #000;
+    left: 0;
+    top:50%;
+    
+
+}**/
+/***aboutUs h3::after{
+    content:"";
+    display: block;
+    width:120px;
+    height:2px;
+    position: absolute;
+    background: #000;
+    right: 0;
+    top:50%;
+    
+
+}**/
+
 #aboutDesc img {
-    border-radius: 2em;
-    padding-bottom: 10px;
     border-style: none;
+    border-radius: 50%;
+ 
     
 }
 .aboutDescription p{
     font-size: 18px;
-    text-align:right;
-    font-weight: 300;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 7%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    color: green;
+    padding-left: 20px;
+    padding-left: 20%;
 
 }
 .aboutUs{
-    background-color:silver;
+    background-color:rgb(224, 239, 240);
     width: 100%;
     padding-top: 0;
     font-family:"mula";
+    margin-top: -40px;
+    height: 200px;
 }
 #aboutDesc{
    flex-direction: row;
    display:flex;
+   margin-top:-50px;
 
    
 }

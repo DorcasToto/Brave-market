@@ -1,15 +1,35 @@
 .team{
-    background-color:rgb(236, 247, 247);
-    border-radius: 2em;
+    background-color:rgb(224, 239, 240);;
+    height:500px;
+    margin-top: -25px;
+    
 }
 .team h3{
     text-align:center;
     font-size: 25px;
-    color:rgb(212, 33, 33);
+    color:green;
     text-transform: uppercase;
     padding: 20px;
 }
 .teamFlex{
     flex-direction: row;
     display:flex;
+}
+.ceo img{
+    border-radius: 50%;
+}
+.ceo p{
+    font-size: 18px;
+}
+.nutrionist img{
+    border-radius: 50%;
+}
+.nutrionist p{
+    font-size: 18px;
+}
+.fresh-produce img{
+    border-radius: 50%;
+}
+.fresh-produce p{
+    font-size: 18px;
 }

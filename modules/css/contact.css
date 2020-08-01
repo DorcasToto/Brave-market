@@ -1,15 +1,17 @@
 .contact_us{
-    background-color:rgb(218, 245, 245);
-   
+    background-color:green;   
+    margin-top: -30px;
+  
 }
 .contact_us h3{
     text-align:center;
     font-size: 25px;
-    color:green;
+    color:white;
     text-transform: uppercase;
 }
 #contentContact{
     text-align: center;
+    padding-top: -30px;
 }
 .contact-us h3{
     padding: 20px;

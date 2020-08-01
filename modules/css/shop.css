@@ -1,31 +1,41 @@
 .shop{
-    background-color: rgb(196, 196, 192);
-    height:400px;
+    background-color:rgb(224, 239, 240);
+    height:300px;
+    margin-top: -30px;
 }
 .shop h3{
     text-align:center;
     font-size: 25px;
-    color:black;
+    color:green;
     text-transform: uppercase;
     padding:20px
 }
 #shop_me{
+    display: flex;
     flex-direction: row;
-    display:flex;
-}
-#shop_me img{
-    border-radius: 2em;
+    padding-top: -50px;
 }
 #shop_me p{
     font-size: 18px;
-    text-align:right;
-    font-weight: 300;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 7%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    color: green;
-    width: 70%;
+    text-align: left;
+}
+#shop_now button{
+    text-transform:uppercase;
+    text-decoration:none;
+    display:block;
+    font-size:20px;
+    color:#BF561B;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-align: left;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 80%;
+    margin-top: 20px;
+    border-color: green;
+}
+#shop_me img{
+    border-radius: 50%;
 }
 .shop button{
    

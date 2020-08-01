@@ -1,8 +1,4 @@
 
-body{
-   font-family:Georgia, 'Times New Roman', Times, serif; 
-  
-}
 #myNavBar{
    height: 300;
    background-image: url("../images/background.jpg");
@@ -11,20 +7,21 @@ body{
 
 }
 #slider{
-  height:600px;
+  height:200px;
 }
 #slider p{
   text-align: center;
-  padding-top:300px;
-  font-size:40px;
+  padding-top:100px;
+  font-size: 18px;
+ 
 }
 .navBar p{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   font-style:normal;
   padding:30px;
   padding-bottom: 30px;
-  font-weight:normal;
+  font-weight:lighter;
   color:#BF561B;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   

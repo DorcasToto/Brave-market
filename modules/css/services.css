@@ -1,7 +1,7 @@
 .services{
-    background-color:lightcyan;
-    border-radius: 2em;
+    background-color:rgb(224, 239, 240);
     height:500px;
+    margin-top: -30px;
     
 }
 .services h3{
@@ -14,9 +14,27 @@
 .servicesFlex{
     flex-direction: row;
     display:flex;
-    padding:200px;
+    justify-content: center;
+    
+    
 }
 #connection img{
     padding: 0px;
-    border-radius: 0.2em;
+    border-radius: 50%;
+}
+.connection p{
+    font-size: 18px;
+    padding-left: 5px;
+}
+.free_delivery img{
+    border-radius: 50%;
+}
+.free_delivery p{
+    font-size: 18px;
+}
+.fresh-produce img{
+    border-radius: 50%;
+}
+.fresh-produce p{
+    font-size: 18px;
 }
