@@ -17,9 +17,11 @@
 }
 .ceo img{
     border-radius: 50%;
+    margin-left: 15px;
 }
 .ceo p{
     font-size: 18px;
+    margin-left: 15px;
 }
 .nutrionist img{
     border-radius: 50%;
@@ -36,6 +38,7 @@
 .ceo h4{
     color: #BF561B;
     font-size: 20px;
+    margin-left:15px;
 }
 .nutrionist h4{
     color: #BF561B;

@@ -1,12 +1,14 @@
 .contact_us{
     background-color:green;   
     margin-top: -30px;
+    padding-top:30px;
+    height: 200px;
   
 }
 .contact_us h3{
     text-align:center;
     font-size: 25px;
-    color:white;
+    color:black;
     text-transform: uppercase;
     
 }
@@ -18,4 +20,11 @@
 .contact-us h3{
     padding: 20px;
 
+}
+#contentContact h4{
+    color: white;
+}
+#contentContact p{
+    margin-top: -19px;
+    font-size: 18px;
 }

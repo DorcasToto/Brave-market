@@ -17,7 +17,9 @@
 }
 #shop_me p{
     font-size: 18px;
-    text-align: left;
+    margin-left: 15px;
+  
+
 }
 #shop_now button{
     text-transform:uppercase;
@@ -33,9 +35,12 @@
     border-width: 80%;
     margin-top: 20px;
     border-color: green;
+    margin-left: 15%;
+    margin-top: -5%;
 }
 #shop_me img{
     border-radius: 50%;
+    margin-left: 15px;
 }
 .shop button{
    

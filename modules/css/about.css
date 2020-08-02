@@ -20,7 +20,7 @@
    position: absolute;
    top: 50%;
    border-bottom: 2px solid;
-   width: 592px; /* half of limiter */
+   width: 670px; /* half of limiter */
    margin: 0 20px;
 }
 .decorated > span:before{
@@ -33,6 +33,7 @@
 #aboutDesc img {
     border-style: none;
     border-radius: 50%;
+    margin-left: 10%;
  
     
 }
@@ -40,6 +41,7 @@
     font-size: 18px;
     padding-left: 20px;
     padding-left: 20%;
+    margin-left: -15%;
 
 }
 .aboutUs{
