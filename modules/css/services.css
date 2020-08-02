@@ -11,6 +11,7 @@
     text-transform: uppercase;
     padding:20px;
 }
+
 .servicesFlex{
     flex-direction: row;
     display:flex;
@@ -25,7 +26,11 @@
 .connection p{
     font-size: 18px;
     padding-left: 5px;
+}#connection h4{
+    color: #BF561B;
+    font-size: 20px;
 }
+
 .free_delivery img{
     border-radius: 50%;
 }
@@ -37,4 +42,16 @@
 }
 .fresh-produce p{
     font-size: 18px;
+}
+.free_delivery h4{
+    color: #BF561B;
+    font-size: 20px;
+}
+.fresh-produce h4{
+    color: #BF561B;
+    font-size: 20px;
+}
+.free_delivery h4{
+    color: #BF561B;
+    font-size: 20px;
 }

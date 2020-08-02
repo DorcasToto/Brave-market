@@ -6,30 +6,29 @@
     padding:20px;
  
 }
-/**.aboutUs h3::before{
-    content:"";
-    display: block;
-    width:120px;
-    height:2px;
-    position: absolute;
-    background: #000;
-    left: 0;
-    top:50%;
-    
-
-}**/
-/***aboutUs h3::after{
-    content:"";
-    display: block;
-    width:120px;
-    height:2px;
-    position: absolute;
-    background: #000;
-    right: 0;
-    top:50%;
-    
-
-}**/
+/* headlines with lines */
+.decorated{
+    overflow: hidden;
+    text-align: center;
+}
+.decorated > span{
+   position: relative;
+   display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid;
+   width: 592px; /* half of limiter */
+   margin: 0 20px;
+}
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
+}
 
 #aboutDesc img {
     border-style: none;
